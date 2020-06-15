@@ -2,7 +2,7 @@ name: Custom Templates
 slug: custom-templates
 type: plugin
 version: 0.1.0
-description: Adds the `/your/site/grav/user/data/custom-templates` directory to Twig lookup paths
+description: Keep custom templates save from theme and plugin updates
 icon: shield
 author:
   name: Ron Wardenier
