@@ -1,0 +1,29 @@
+{
+  "name": "bleutzinn/custom-templates",
+  "type": "grav-plugin",
+  "description": "bla",
+  "keywords": ["plugin"],
+  "homepage": "https://github.com/bleutzinn/grav-plugin-custom-templates",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ron Wardenier",
+      "email": "ron@rwgc.nl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grav\\Plugin\\CustomTemplates\\": "classes/"
+    },
+    "classmap":  ["custom-templates.php"]
+  },
+  "config": {
+    "platform": {
+      "php": "7.1.3"
+    }
+  }
+}
